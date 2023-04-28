@@ -1,6 +1,7 @@
 import react from 'react'
 import Box from '@mui/material/Box'
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Typewriter from "typewriter-effect";
 
 const Pic = () => {
     const matches = useMediaQuery('(min-width:600px)');
@@ -13,8 +14,18 @@ const Pic = () => {
 
 
                 <Box className = "typescript">
-                <p>  sldfkdsjflsdkfjlkjsdkllfsjdkfsdflsdjfsldjk<br></br>sfkhjdfhdskjhfsdkjhfsjkdhffsdjkhjkdhfjksd</p>
-
+                    <p>Hello, my name is Atud Jerry. I am a front end developer.</p>
+                <Typewriter
+                  className="type"
+                  options={{
+                    strings: [
+                      "I work with React",
+                      "I work with JavaScript/Html/css",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />{" "}
                 </Box>
 
                 <Box className = "profile-picture">
