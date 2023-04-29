@@ -4,6 +4,7 @@ import Pic from './Components/Pic';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Skills from './Components/Skills';
 import About from './Components/About';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Pic/>
         <Skills/>
         <About/>
+        <Contact/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

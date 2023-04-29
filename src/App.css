@@ -26,7 +26,7 @@ img{
   width: 80%;
 }
 .skills{
-  height:550px;
+  height:650px;
   width: 100%;
   background-color: rgb(227, 222, 222);
 }
@@ -35,9 +35,17 @@ img{
   width: 100%;
   background-color: rgb(227, 222, 222);
 }
+.contact{
+  height:700px;
+  width: 100%;
+  background-color: rgb(227, 222, 222);
+}
 .bar{
   height: 500px;
   border-width: 650px;
+}
+.second-section{
+  padding-top: 9px;
 }
 
 @media (min-width : 100px) and (max-width : 900px){
