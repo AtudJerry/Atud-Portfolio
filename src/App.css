@@ -1,6 +1,7 @@
-/* .App {
+.App {
   text-align: center;
-} */
+
+}
 .picture{
   height:80%;
   width: 100%;
@@ -10,6 +11,7 @@
 .first-section{
   display: flex;
   flex-direction: row !important;
+  margin-top: 6%;
 }
 p{
   font-size: 0.8rem;
@@ -18,12 +20,21 @@ img{
   height: 80%;
   width: 80%;
 }
-
+.skills{
+  height:800px;
+  width: 100%;
+  background-color: rgb(227, 222, 222);
+}
+.bar{
+  height: 500px;
+  border-width: 600px;
+}
 
 @media (min-width : 100px) and (max-width : 900px){
   .first-section {
     display: flex;
     flex-direction: column !important;
+    margin-top: 6%;
     /* justify-content: space-between; */
   }
   img{
@@ -32,6 +43,12 @@ img{
   }
   p{
     border-width: 90px;
+  }
+  .bar{
+    height: 400px;
+    
+    border-width: 50px !important;
+    
   }
   
 }
