@@ -4,17 +4,18 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Typewriter from "typewriter-effect";
 
 const Pic = () => {
-    const matches = useMediaQuery('(min-width:600px)');
+  
 
-  ;
-
+  
     return(
         <div className='picture'>
             <Box className = "first-section"> 
 
 
                 <Box className = "typescript">
-                    <p>Hello, my name is Atud Jerry. I am a front end developer.</p>
+                    <p>Hello 👋, my name is Atud Jerry.<br></br>
+                     I am a front end developer,<br></br>
+                      from Cameroon, North West region</p>
                 <Typewriter
                   className="type"
                   options={{

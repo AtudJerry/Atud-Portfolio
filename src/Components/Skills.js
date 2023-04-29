@@ -1,7 +1,8 @@
 import react from "react"
-import { mockSkillData as data } from "./Data"
+import { SkillData as data } from "./Data"
 import  Box  from "@mui/material/Box"
 import {ResponsiveBar }from "@nivo/bar"
+import { Typography } from "@mui/material"
 const Skills = () => {
 
 
@@ -9,20 +10,17 @@ const Skills = () => {
         <div className="skills">
             <Box className = "second-section"    >
                 <div className="bar">
+                    <Typography variant="h4">SKILLS</Typography>
             <ResponsiveBar
          
         data={data}
         keys={[
-            'hot dog',
-            'burger',
-            'sandwich',
-            'kebab',
-            'fries',
-            'donut'
+            'competence',
+            
         ]}
-        indexBy="country"
+        indexBy="Tool"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
-        padding={0.3}
+        padding={0.7}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
         colors={{ scheme: 'nivo' }}
@@ -33,7 +31,7 @@ const Skills = () => {
                 background: 'inherit',
                 color: '#38bcb2',
                 size: 4,
-                padding: 1,
+                padding: 3,
                 stagger: true
             },
             {
@@ -43,7 +41,7 @@ const Skills = () => {
                 color: '#eed312',
                 rotation: -45,
                 lineWidth: 6,
-                spacing: 10
+                spacing: 15
             }
         ]}
         fill={[
@@ -72,10 +70,10 @@ const Skills = () => {
         axisTop={null}
         axisRight={null}
         axisBottom={{
-            tickSize: 5,
-            tickPadding: 5,
+            tickSize: 15,
+            tickPadding: 10,
             tickRotation: 0,
-            legend: 'country',
+            legend: 'Tool',
             legendPosition: 'middle',
             legendOffset: 32
         }}
@@ -83,11 +81,11 @@ const Skills = () => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'food',
+            legend: 'level',
             legendPosition: 'middle',
             legendOffset: -40
         }}
-        labelSkipWidth={12}
+        labelSkipWidth={17}
         labelSkipHeight={12}
         labelTextColor={{
             from: 'color',
@@ -106,12 +104,12 @@ const Skills = () => {
                 justify: false,
                 translateX: 120,
                 translateY: 0,
-                itemsSpacing: 2,
+                itemsSpacing: 6,
                 itemWidth: 100,
                 itemHeight: 20,
                 itemDirection: 'left-to-right',
                 itemOpacity: 0.85,
-                symbolSize: 20,
+                
                 effects: [
                     {
                         on: 'hover',
@@ -124,7 +122,7 @@ const Skills = () => {
         ]}
         role="application"
         ariaLabel="Nivo bar chart demo"
-        barAriaLabel={function(e){return e.id+": "+e.formattedValue+" in country: "+e.indexValue}}
+        barAriaLabel={function(e){return e.id+": "+e.formattedValue+" in Tool: "+e.indexValue}}
     />
     </div>
 
