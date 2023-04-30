@@ -41,6 +41,12 @@ img{
   width: 100%;
   background-color: rgb(227, 222, 222);
 }
+.resume{
+  height:700px;
+  width: 100%;
+  background-color: rgb(227, 222, 222);
+
+}
 .bar{
   height: 500px;
   border-width: 650px;
