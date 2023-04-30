@@ -5,6 +5,7 @@ import { Typography } from "@mui/material"
     return (
         <div className = "contact">
             <Box className = "fourth-section">
+            <br></br> <br></br>
                 <Typography variant = "h4">Contact me</Typography>
             </Box>
         </div>

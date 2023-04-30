@@ -14,12 +14,13 @@
   margin-top: 6%;
   margin-left: 300px;
 }
-p{
+li{
   font-size: 0.8rem;
+  color: black;
 }
 h4{
   color: black;
-  margin-left: 30px;
+  margin: 30px;
 }
 img{
   height: 80%;

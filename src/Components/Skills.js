@@ -10,6 +10,7 @@ const Skills = () => {
         <div className="skills">
             <Box className = "second-section"    >
                 <div className="bar">
+                <br></br> <br></br>
                     <Typography variant="h4">SKILLS</Typography>
             <ResponsiveBar
          
