@@ -5,6 +5,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Skills from './Components/Skills';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 
 function App() {
   return (

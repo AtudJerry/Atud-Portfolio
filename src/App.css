@@ -7,6 +7,10 @@
   width: 100%;
   background-color: rgb(16, 15, 15);
 }
+.picture-text{
+  font-size: 1rem;
+}
+
 
 .first-section{
   display: flex;
@@ -15,8 +19,9 @@
   margin-left: 300px;
 }
 li{
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: black;
+  white-space: pre-line;
 }
 h4{
   color: black;
@@ -32,14 +37,30 @@ img{
   background-color: rgb(227, 222, 222);
 }
 .about{
-  height:700px;
+  height:800px;
   width: 100%;
   background-color: rgb(227, 222, 222);
+}
+.cv-text{
+  color: black;
 }
 .contact{
   height:700px;
   width: 100%;
   background-color: rgb(227, 222, 222);
+}
+.contactetails{
+  color: rgb(64, 78, 78);
+  margin-left: 0 !important
+  ;
+
+}
+.contact-text{
+  color: black;
+}
+.contactnotes{
+  color: black;
+  border-width: 100%;
 }
 .resume{
   height:700px;
@@ -67,9 +88,15 @@ img{
     height: 100%;
     width: 100%;
   }
+  li{
+    font-size: 0.9rem;
+    color: black;
+    white-space: pre-line;
+  }
   p{
     border-width: 90px;
-  }
+    font-size: 0.9rem
+  } 
   .bar{
     height: 400px;
     
