@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
 import Topbar from './Components/Topbar';
+import Sidebar from './Components/Sidebar';
 
 
 
@@ -15,14 +16,17 @@ function App() {
   return (
     <div>
     <div className="App">
+      {/* <div>  <Sidebar /></div> */}
+   
       <header className="App-header">
         <Topbar/>
+       
         <Pic/>
         <Skills/>
-        <About/>
+       <About/>
         <Contact/>
         <Resume/>
-        <Footer/>
+        <Footer/> 
       </header>
       
     </div>

@@ -12,45 +12,44 @@ const Skills = () => {
             <br></br> 
             <Typography variant="h4">SKILLS</Typography>
                 <div className="bar">
-               
-             
-            <ResponsiveBar
-         
+                <ResponsiveBar
         data={data}
         keys={[
-            'competence',
             
+            'competence'
+        
         ]}
         indexBy="Tool"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
-        padding={0.5}
+        padding={0.15}
+        innerPadding={3}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
-        colors={{ scheme: 'nivo' }}
+        colors={{ scheme: 'category10' }}
         defs={[
             {
                 id: 'dots',
                 type: 'patternDots',
                 background: 'inherit',
-                color: '#800080',
+                color: '#38bcb2',
                 size: 4,
-                padding: 3,
+                padding: 1,
                 stagger: true
             },
             {
                 id: 'lines',
                 type: 'patternLines',
                 background: 'inherit',
-                color: '#800080',
+                color: '#eed312',
                 rotation: -45,
-                lineWidth: 6,
-                spacing: 15
+                lineWidth: 3,
+                spacing: 3
             }
         ]}
         fill={[
             {
                 match: {
-                    id: 'fries'
+                    id: 'competence'
                 },
                 id: 'dots'
             },
@@ -61,41 +60,42 @@ const Skills = () => {
                 id: 'lines'
             }
         ]}
+        borderWidth={6}
         borderColor={{
             from: 'color',
             modifiers: [
                 [
                     'darker',
-                    1.6
+                    '2.6'
                 ]
             ]
         }}
         axisTop={null}
         axisRight={null}
         axisBottom={{
-            tickSize: 15,
-            tickPadding: 10,
+            tickSize: 3,
+            tickPadding: 5,
             tickRotation: 0,
             legend: 'Tool',
             legendPosition: 'middle',
             legendOffset: 32
         }}
         axisLeft={{
-            tickSize: 5,
+            tickSize: 3,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'level',
+            legend: 'Competence level',
             legendPosition: 'middle',
             legendOffset: -40
         }}
-        labelSkipWidth={17}
-        labelSkipHeight={12}
+        labelSkipWidth={11}
+        labelSkipHeight={20}
         labelTextColor={{
             from: 'color',
             modifiers: [
                 [
                     'darker',
-                    1.6
+                    '1.6'
                 ]
             ]
         }}
@@ -107,12 +107,12 @@ const Skills = () => {
                 justify: false,
                 translateX: 120,
                 translateY: 0,
-                itemsSpacing: 6,
+                itemsSpacing: 9,
                 itemWidth: 100,
                 itemHeight: 20,
                 itemDirection: 'left-to-right',
                 itemOpacity: 0.85,
-                
+                symbolSize: 20,
                 effects: [
                     {
                         on: 'hover',
@@ -125,11 +125,9 @@ const Skills = () => {
         ]}
         role="application"
         ariaLabel="Nivo bar chart demo"
-        barAriaLabel={function(e){return e.id+": "+e.formattedValue+" in Tool: "+e.indexValue}}
+        barAriaLabel={e=>e.id+": "+e.formattedValue+" in Tool: "+e.indexValue}
     />
     </div>
-
-
 
 
             </Box>

@@ -1,13 +1,14 @@
-.App {
-  text-align: center;
+/* .App {
+  
+  display: flex;
 
-}
+} */
 .topbar{
   visibility: hidden;
 }
 
 .picture{
-  height:80%;
+  height:590px;
   width: 100%;
   background-color: rgb(16, 15, 15);
   border-radius: 10px;
@@ -15,13 +16,14 @@
 .picture-text{
   font-size: 1.5rem;
   color: rgb(221, 170, 221);
+  margin-top: 40px;
 }
 
 
 .first-section{
   display: flex;
   flex-direction: row !important;
-  margin-top: 6%;
+  margin-top: 1%;
   margin-left: 300px;
 }
 li{
@@ -92,6 +94,7 @@ img{
 .contactnotes{
   color: black;
   border-width: 100%;
+  font-size: 1.2rem;
 }
 .resume{
   height:200px;
@@ -125,9 +128,12 @@ img{
   .first-section {
     display: flex;
     flex-direction: column !important;
-    margin-top: 6%;
+    margin-top: 1%;
     margin-left: 0px !important;
     /* justify-content: space-between; */
+  }
+  .picture{
+    height: 600px !important;
   }
   .footer-div{
     text-align: right;
@@ -135,8 +141,8 @@ img{
     margin-right: 20px;
   }
   img{
-    height: 100%;
-    width: 100%;
+    height: 70% !important;
+    width: 70% !important;
   }
   li{
     font-size: 0.9rem;
@@ -150,7 +156,7 @@ img{
   } 
   .bar{
     height: 400px;
-    width: 99%;
+    width: 93%;
     border-width: 90px !important;
     
   }
@@ -172,18 +178,25 @@ img{
   h4{
     margin-top: 8px;
   }
+
+  img{
+    height: 80%;
+    width: 80%;
+  }
+
+  
+ 
+ 
 }
 
 .App-header {
-  
-  /* min-height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  /* align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin); */
-  color:  rgb(221, 170, 221);
-}
 
+ 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color:  rgb(221, 170, 221);  
+}
 
 
