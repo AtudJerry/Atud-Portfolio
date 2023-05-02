@@ -23,7 +23,7 @@ const Skills = () => {
         ]}
         indexBy="Tool"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
-        padding={0.7}
+        padding={0.5}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
         colors={{ scheme: 'nivo' }}
@@ -32,7 +32,7 @@ const Skills = () => {
                 id: 'dots',
                 type: 'patternDots',
                 background: 'inherit',
-                color: '#38bcb2',
+                color: '#800080',
                 size: 4,
                 padding: 3,
                 stagger: true
@@ -41,7 +41,7 @@ const Skills = () => {
                 id: 'lines',
                 type: 'patternLines',
                 background: 'inherit',
-                color: '#eed312',
+                color: '#800080',
                 rotation: -45,
                 lineWidth: 6,
                 spacing: 15

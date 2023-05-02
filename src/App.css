@@ -2,6 +2,10 @@
   text-align: center;
 
 }
+.topbar{
+  visibility: hidden;
+}
+
 .picture{
   height:80%;
   width: 100%;
@@ -110,6 +114,14 @@ img{
 }
 
 @media (min-width : 100px) and (max-width : 900px){
+  .topbar{
+    z-index: 100;
+    position: fixed;
+    visibility: visible !important;
+    
+    opacity: 94%;
+    
+  }
   .first-section {
     display: flex;
     flex-direction: column !important;

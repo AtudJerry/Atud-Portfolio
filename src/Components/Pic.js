@@ -14,7 +14,7 @@ const Pic = () => {
 
                 <Box className = "typescript">
                   <div className='picture-text'>
-                
+                <br></br>
                     <p>Hello 👋, my name is Atud Jerry.<br></br>
                      I am a front end developer,<br></br>
                       from Cameroon, North West region</p> </div>
