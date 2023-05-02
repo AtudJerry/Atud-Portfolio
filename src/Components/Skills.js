@@ -9,9 +9,11 @@ const Skills = () => {
     return (
         <div className="skills">
             <Box className = "second-section"    >
+            <br></br> 
+            <Typography variant="h4">SKILLS</Typography>
                 <div className="bar">
-                <br></br> <br></br>
-                    <Typography variant="h4">SKILLS</Typography>
+               
+             
             <ResponsiveBar
          
         data={data}
