@@ -3,8 +3,29 @@
   display: flex;
 
 } */
+/* .sidebar{
+  width: 1600vw;
+  height: 300vh;
+} */
 .topbar{
-  visibility: hidden;
+  color: white;
+  
+}
+h5{
+  color: white;
+  font-size: 10px;
+}
+.sidepage{
+  padding: 5px;
+  height: 700px;
+}
+.skill-listpage{
+  background-image: linear-gradient(rgb(38, 36, 36),purple); ;
+}
+.skillsmenu{
+  color: white;
+  background-image: linear-gradient(rgb(38, 36, 36),purple);
+
 }
 
 .picture{
@@ -18,6 +39,7 @@
   color: rgb(221, 170, 221);
   margin-top: 40px;
 }
+
 
 
 .first-section{
@@ -182,6 +204,10 @@ img{
   img{
     height: 80%;
     width: 80%;
+  }
+  h5{
+    color: white;
+    font-size: 10px;
   }
 
   

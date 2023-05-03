@@ -18,39 +18,41 @@ const Sidebar = () => {
 
 
     return(
-        <div>
-            <ProSidebar style = {{height: '100vh'}}>
+        <div className="sidepage">
+            <ProSidebar >
                 <SidebarContent>
                     <SidebarHeader></SidebarHeader>
                     <Menu>
                        
                         <ul type = "none">
                         <MenuItem>
-                            <li>Nationality : Cameroon</li>
+                        <h5>Nationality : Cameroon</h5>
                             </MenuItem>
                             <MenuItem>
-                            <li>Height : 1.63M</li>
+                            <h5>Height : 1.63M</h5>
                             </MenuItem>
                             <MenuItem>
-                            <li>Status : Student</li>
+                            <h5>Status : Student</h5>
                             </MenuItem>
                             <MenuItem>
-                            <li>School : NAHPI, UBa Bamenda</li>
+                            <h5>School : NAHPI, UBa Bamenda </h5>
                             </MenuItem>
                         </ul>
                         
-                        <SubMenu title = "Skills">
+                        <SubMenu title = "Skills" className="skillsmenu">
+                            <div className="skill-listpage">
                             <MenuItem>
-                            JavaScript<br></br>
+                          <h5 className="skill-list">  JavaScript </h5><br></br>
                             </MenuItem>
 
                             <MenuItem>
-                            React<br></br>
+                            <h5 className="skill-list">React </h5>  <br></br>
                          </MenuItem>
                          <MenuItem>
-                            Html/css <br></br>
+                         <h5 className="skill-list">  Html/css </h5> <br></br>
 
                             </MenuItem>
+                            </div>
 
                         </SubMenu>
                     </Menu>

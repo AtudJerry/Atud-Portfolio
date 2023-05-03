@@ -14,9 +14,9 @@ import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div>
+    <div><br></br>
+      <div>  <Sidebar /></div>
     <div className="App">
-      {/* <div>  <Sidebar /></div> */}
    
       <header className="App-header">
         <Topbar/>
