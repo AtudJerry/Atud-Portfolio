@@ -8,14 +8,14 @@ import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
 import Topbar from './Components/Topbar';
-import Sidebar from './Components/Sidebar';
+
 
 
 
 function App() {
   return (
     <div><br></br>
-      <div>  <Sidebar /></div>
+      
     <div className="App">
    
       <header className="App-header">
