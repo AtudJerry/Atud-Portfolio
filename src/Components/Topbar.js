@@ -48,10 +48,27 @@ export default function Topbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar color = "default" opacity = "50px" className='topbar'>
         <Toolbar>
-        <div className='menu-container' ref={menuRef}>
+        <h5 className='j'>
+            ATUD</h5>
         <Typography className='j' variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            ATUD
+            
           </Typography>
+
+
+        <Typography className='j' variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            
+          </Typography>
+
+        <Typography className='j' variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            
+          </Typography>
+
+
+        <h5 className='j'>
+            
+          </h5> 
+        <div className='menu-container' ref={menuRef}>
+       
          
           <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} id='drop'> 
     <h3>Atud Jerry<br/><span> JavaScript / React developer</span></h3>
@@ -65,10 +82,8 @@ export default function Topbar() {
     </ul>
   </div>
           
-             </div>
-             <Typography className='j' variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            .
-          </Typography>
+            
+          
          
 
           <IconButton 
@@ -79,11 +94,14 @@ export default function Topbar() {
             onClick={()=>{setOpen(!open)}}
             className='menu-trigger'
           >
-
+               <Typography className='j' variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            
+          </Typography>
 
         
             <MenuIcon />
           </IconButton>  
+          </div>
 
 
          

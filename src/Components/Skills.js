@@ -134,7 +134,10 @@ const Skills = () => {
             <ul type = "square">
                 <li>PS/AI = Adobe Photoshop/Adobe Illustrator</li>
                 <li>JS = JavaScript</li>
+                <li>R= React</li>
                 <li>D.D = Digital Drawing with Adobe Illustrator</li>
+                <li>H= Html</li>
+                <li>F = Figma</li>
 
             </ul>
             

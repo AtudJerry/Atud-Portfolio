@@ -16,7 +16,7 @@ import { purple } from "@mui/material/colors";
     "competenceColor": "hsl(124, 70%, 50%)",
   },
   {
-    "Tool": "React",
+    "Tool": "R",
     "competence": 85,
     "competenceColor": "hsl(168, 70%, 50%)",
     
@@ -29,14 +29,14 @@ import { purple } from "@mui/material/colors";
     
   },
   {
-    "Tool": "Html",
+    "Tool": "H",
     
     "competence": 95,
     "competenceColor": "hsl(75, 70%, 50%)",
     
   },
   {
-    "Tool": "Figma",
+    "Tool": "F",
  
     "competence": 70,
     "competenceColor": "hsl(257, 70%, 50%)",

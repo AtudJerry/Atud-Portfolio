@@ -52,7 +52,7 @@
 .first-section{
   display: flex;
   flex-direction: row !important;
-  /* margin-top: 1%; */
+  margin-top: 2%;
   margin-left: 300px;
 }
 li{
@@ -71,7 +71,7 @@ img{
 }
 
 .skills{
-  height:590px;
+  height:599px;
    width: 99%;
   background-color: rgb(227, 222, 222);
   border-radius: 9px;
@@ -169,6 +169,7 @@ img{
       font-size:12px ;
     }
   }
+  
   /* #drop{
     background-color: rgb(40, 29, 40);
     width: 700px;
@@ -184,9 +185,9 @@ img{
   .picture{
     height: 600px !important;
   }
-  /* .footer{
-    height:490px;
-  } */
+  .footer{
+    height:496px;
+  }
   .footer-div{
     text-align: right;
     margin-top: -33%;
