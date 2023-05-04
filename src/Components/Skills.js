@@ -131,6 +131,12 @@ const Skills = () => {
 
 
             </Box>
+            <ul type = "square">
+                <li>PS/AI = Adobe Photoshop/Adobe Illustrator</li>
+                <li>JS = JavaScript</li>
+                <li>D.D = Digital Drawing with Adobe Illustrator</li>
+
+            </ul>
             
 
 

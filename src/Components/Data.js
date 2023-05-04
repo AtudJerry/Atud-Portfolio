@@ -16,7 +16,7 @@ import { purple } from "@mui/material/colors";
     "competenceColor": "hsl(124, 70%, 50%)",
   },
   {
-    "Tool": "Reactjs",
+    "Tool": "React",
     "competence": 85,
     "competenceColor": "hsl(168, 70%, 50%)",
     

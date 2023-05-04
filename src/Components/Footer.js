@@ -40,7 +40,7 @@ const Footer = () =>{
                 <a href="/">project 2</a><br></br>
                 <a href="/">project 3</a><br></br>
                 </div>
-                <center className="cap"> Developed by me Atud Jerry </center>
+                <center className="cap"> @Developed by me Atud Jerry </center>
               
               
 

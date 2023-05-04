@@ -11,7 +11,7 @@ const Resume = () => {
 
             <Box className = "fifth-section">
             <Typography variant = "h4">Curriculum vitae</Typography>
-                <div className="cv-text">Download my resume here <a href = "/"><Button variant = "contained" color = "primary"><FileDownloadIcon/> </Button> </a></div>
+                <div className="cv-text">Download my resume here <a href = "https://drive.google.com/file/d/1ip_H3EHRxj4n7QL05bvO0eOVYpeRYGR-/view?usp=drivesdk"><Button variant = "contained" color = "primary"><FileDownloadIcon/> </Button> </a></div>
                 
 
             </Box>

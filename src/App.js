@@ -18,12 +18,12 @@ function App() {
       
     <div className="App">
    
-        <Topbar/>
       <header className="App-header">
+        <Topbar/>
        
         <Pic/>
         <Skills/>
-       <About/>
+       <About/> 
         <Contact/>
         <Resume/>
         <Footer/> 
