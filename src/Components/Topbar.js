@@ -26,7 +26,7 @@ export default function Topbar() {
   useEffect(() => {
     let handler = (e)=>{
       if(!menuRef.current.contains(e.target)){
-        setOpen(!false);
+        setOpen(!true);
         console.log(menuRef.current);
       }      
     };
@@ -46,7 +46,7 @@ export default function Topbar() {
   return (
     
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar className='topbar'>
+      <AppBar color = "default" opacity = "50px" className='topbar'>
         <Toolbar>
         <div className='menu-container' ref={menuRef}>
           <IconButton 
@@ -63,24 +63,18 @@ export default function Topbar() {
             <MenuIcon />
           </IconButton>  
           <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} id='drop'> 
-    <h3>The Kiet<br/><span>Website Designer</span></h3>
+    <h3 id = 'fropd-h'>Atud Jerry<br/><span> JavaScript / React developer</span></h3>
     <ul >
      
-<li> dgdgdfgd </li>
-<li> dgdgdfgd </li>
-<li> dgdgdfgd </li>
-<li> dgdgdfgd </li>
-<li> dgdgdfgd </li>
+<li className='drop-list'> Nationality : Cameroon </li>
+<li className='drop-list'> Status : Student </li>
+<li className='drop-list'> GitHub link : <a href='https://github.com/AtudJerry'> Atud Jerry </a> </li>
+<li className='drop-list'> My Projects : <a href='https://github.com/AtudJerry'> Portfolio</a> </li>
     
     </ul>
   </div>
           
              </div>
-
-
-     
-         
-
         </Toolbar>
       </AppBar>
     </Box>

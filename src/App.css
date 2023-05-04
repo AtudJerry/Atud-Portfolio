@@ -11,8 +11,9 @@
 .hide{
   visibility: hidden;
 }
+
 .topbar{
-  color: none;
+  opacity: 96%;
   
 }
 h5{
@@ -37,6 +38,7 @@ h5{
   width: 100%;
   background-color: rgb(16, 15, 15);
   border-radius: 10px;
+  margin-top: 0px!important;
 }
 .picture-text{
   font-size: 1.5rem;
@@ -77,13 +79,14 @@ img{
   width: 100%;
   background-color: rgb(227, 222, 222);
   border-radius: 9px;
+  color: black;
 }
 .cv-text{
   color: black;
 }
 .footer{
   background-image: linear-gradient(rgb(28, 27, 27),rgb(14, 13, 13));
-  height:480px;
+  height:515px;
   width: 100%;
   border-radius: 9px;
   /* text-align: left; */
@@ -91,6 +94,7 @@ img{
 .footer-text{
   color: white;
   text-align: left;
+  font-size: 12px;
 }
 .footer-head{
   color: rgb(198, 65, 198);
@@ -141,21 +145,31 @@ img{
 .type{
   color: purple;
 }
-
+.cap{
+  font-size:12px ;
+  margin-bottom: 1px;
+}
 @media (min-width : 100px) and (max-width : 900px){
   .topbar{
     z-index: 100;
     position: fixed;
     visibility: visible !important;
-    color: aliceblue;
+    /* color: aliceblue; */
     
-    opacity: 94%;
-    
+    opacity: 90%;
+    .cap{
+      font-size:12px ;
+    }
+  }
+  #drop{
+    background-color: rgb(87, 48, 87);
+    width: 700px;
+    height: 500px;
   }
   .first-section {
     display: flex;
     flex-direction: column !important;
-    margin-top: 1%;
+
     margin-left: 0px !important;
     /* justify-content: space-between; */
   }

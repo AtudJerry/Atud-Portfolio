@@ -30,7 +30,8 @@ const Footer = () =>{
                    <a href="https://github.com/AtudJerry"> <GitHubIcon className="icon" color = "secondary"/></a> &nbsp;
                    <a href="https://instagram.com/atud_jerry33?igshid=ZDdkNTZiNTM="> <InstagramIcon className="icon" color = "secondary"/></a> &nbsp;
                    <a href="https://www.linkedin.com/in/atud-jerry-013798207"><LinkedInIcon className="icon" color = "secondary" /></a> &nbsp;
-                   <a href="/"><TwitterIcon className="icon" color="secondary"/></a>
+                   <a href="/"><TwitterIcon className="icon" color="secondary"/></a><br></br><br></br><br></br>
+                 
 
                 </div><br></br>
                 <div className="footer-div">
@@ -38,11 +39,8 @@ const Footer = () =>{
                 <a href="/">project 1</a> <br></br>
                 <a href="/">project 2</a><br></br>
                 <a href="/">project 3</a><br></br>
-
-
-
-
                 </div>
+                <center className="cap"> Developed by me Atud Jerry </center>
               
               
 
