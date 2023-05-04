@@ -36,9 +36,14 @@
     transform: rotate(360deg);
   }
 }
-.drop{
-  width: 50%;
+#drop{
+  background-color: rgb(87, 48, 87);
+  width: 1200px;
   height: 100vh;
+  
+}
+li{
+  color: white;
 }
 
 
@@ -50,6 +55,7 @@ code {
 
 ul{
   list-style: none;
+  color: white;
 }
 
 a {

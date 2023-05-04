@@ -44,8 +44,9 @@ export default function Topbar() {
 
 
   return (
+    
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar color = "secondary" className='topbar'>
+      <AppBar className='topbar'>
         <Toolbar>
         <div className='menu-container' ref={menuRef}>
           <IconButton 
@@ -56,29 +57,34 @@ export default function Topbar() {
             onClick={()=>{setOpen(!open)}}
             className='menu-trigger'
           >
+
+
         
             <MenuIcon />
-          </IconButton>     </div>
-
-<div className='drop'>
-          <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-          <h3>The Kiet<br/><span>Website Designer</span></h3>
-          <ul>
-           
-      <li> dgdgdfgd </li>
-      <li> dgdgdfgd </li>
-      <li> dgdgdfgd </li>
-      <li> dgdgdfgd </li>
-      <li> dgdgdfgd </li>
+          </IconButton>  
+          <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} id='drop'> 
+    <h3>The Kiet<br/><span>Website Designer</span></h3>
+    <ul >
+     
+<li> dgdgdfgd </li>
+<li> dgdgdfgd </li>
+<li> dgdgdfgd </li>
+<li> dgdgdfgd </li>
+<li> dgdgdfgd </li>
+    
+    </ul>
+  </div>
           
-          </ul>
-        </div>
-        </div>
+             </div>
+
+
      
          
 
         </Toolbar>
       </AppBar>
     </Box>
+  
+ 
   );
 }

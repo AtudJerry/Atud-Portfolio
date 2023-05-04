@@ -18,8 +18,8 @@ function App() {
       
     <div className="App">
    
-      <header className="App-header">
         <Topbar/>
+      <header className="App-header">
        
         <Pic/>
         <Skills/>
